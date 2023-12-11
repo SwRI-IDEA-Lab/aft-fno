@@ -1,0 +1,25 @@
+name: aft-fno
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+  - rapidsai
+  - bioconda
+dependencies:
+  - python=3.10
+  - snakemake
+  - wandb
+  - ipywidgets
+  - pytorch::pytorch
+  - pytorch::torchvision
+  - pytorch::torchaudio
+  - pytorch::pytorch-cuda=11.8
+  - sunpy
+  - pandas
+  - wandb
+  - matplotlib
+  - seaborn
+  - pip
+  - pip:
+    - lightning
+    - torch-harmonics
