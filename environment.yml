@@ -6,19 +6,20 @@ channels:
   - rapidsai
   - bioconda
 dependencies:
-  - python=3.10
+  - python
   - snakemake
   - wandb
   - ipywidgets
   - pytorch::pytorch
   - pytorch::torchvision
   - pytorch::torchaudio
-  - pytorch::pytorch-cuda=11.8
+  - pytorch::pytorch-cuda=12.1
   - sunpy
   - pandas
   - wandb
   - matplotlib
   - seaborn
+  - xarray
   - pip
   - pip:
     - lightning
