@@ -20,6 +20,7 @@ dependencies:
   - matplotlib
   - seaborn
   - xarray
+  - cartopy
   - pip
   - pip:
     - lightning
